@@ -1,9 +1,4 @@
-//
-//  CountryCellViewController.swift
-//  Countries
-//
-//  Created by L60809MAC on 18.01.2022.
-//
+
 
 import Foundation
 import UIKit
@@ -16,14 +11,12 @@ class CountryCellViewController: UITableViewCell {
 
     @IBAction func favButtonTapped() {
         
-        
         favButton.setImage(UIImage(named: "star.fill"), for: .normal)
         
         let mainSb = UIStoryboard(name: "Main", bundle: Bundle.main)
-        let fvc = mainSb.instantiateViewController(withIdentifier: "main1") as! ViewController
+        let fvc = mainSb.instantiateViewController(withIdentifier: "main3") as! UcuncuViewController
         
         fvc.favButtonTapped(indexPath: indexPath)
-        
         
     }
 }

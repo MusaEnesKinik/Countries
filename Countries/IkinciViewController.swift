@@ -1,9 +1,4 @@
-//
-//  IkinciViewController.swift
-//  Countries
-//
-//  Created by L60809MAC on 18.01.2022.
-//
+
 
 import UIKit
 

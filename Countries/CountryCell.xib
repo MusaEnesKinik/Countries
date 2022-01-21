@@ -28,7 +28,7 @@
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                         <connections>
-                            <action selector="favButtonTapped" destination="FON-LB-PNe" eventType="touchUpInside" id="8mx-tl-XpP"/>
+                            <action selector="favButtonTapped" destination="-1" eventType="touchUpInside" id="AQW-WP-gdi"/>
                         </connections>
                     </button>
                 </subviews>
